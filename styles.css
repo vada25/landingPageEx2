@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+
+.navpanel .navpanel__1 .navpanel__2 {
+    display: flex;
+    
+}
