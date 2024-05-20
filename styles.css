@@ -286,3 +286,22 @@ body {
     width: 128px;
     padding-bottom: 22px;
 }
+/* ----------------------INTEGR ----------------------------*/
+.header_integr {
+    padding-top: 170px;
+    width: 50%;
+    margin: 0 auto;
+}
+.integr_descr {
+    width: 30%;
+    margin: 0 auto;
+}
+.bird {
+    margin-top: 25px;
+}
+.btn_integr {
+    width: 170px;
+}
+.integrations {
+    margin-bottom: 170px;
+}
