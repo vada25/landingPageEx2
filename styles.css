@@ -4,6 +4,7 @@
     --secondary-color: rgb(250, 196, 19);
     --border-light: rgb(199, 196, 196);  
     --color-black: black;
+    --pink-color: #FF9C7D;
   }
 /* ----------------------NAVBAR ----------------------------*/
 .navbar {
@@ -73,4 +74,25 @@
     font-weight: 400;
     line-height: 25px;
     margin-top: 25px;
+}
+/* ----------------------COMPANY INFO ----------------------------*/
+.companies {
+    background-color: var(--pink-color);
+    margin-top: 172px;
+    padding-bottom: 94px !important;
+} 
+.companies_header {
+    color: var(--color-black);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 108px;
+    padding: 0 20px;
+}
+.company_logo_line {
+    margin: 70px 75px 0px 75px;
+    height: 53px;
 }
