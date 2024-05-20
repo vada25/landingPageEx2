@@ -1,9 +1,31 @@
-* {
-    box-sizing: border-box;
-    margin: 0;padding: 0;
+/* ----------------------ROOT ----------------------------*/
+:root {
+    --btn-color: #FF6336;
+    --secondary-color: rgb(250, 196, 19) ; 
+  }
+/* ----------------------NAVBAR ----------------------------*/
+.navbar {
+    height: 95px;
+    padding-left: 51px;
+    padding-right: 51px;
 }
-
-.navpanel .navpanel__1 .navpanel__2 {
-    display: flex;
-    
+.leftnav > li {
+    padding-left: 40px;
+}
+.btn_top {
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+    margin-left: 10px;
+    color: black;
+    border-color: black;
+}
+.btn-primary {
+    background-color: var(--btn-color) !important;
+    color: white;
+    border-color: var(--btn-color);
+}
+.btn:hover {
+    color: #000;
+    background-color: var(--secondary-color) !important;
 }
