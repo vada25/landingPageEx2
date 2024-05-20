@@ -305,3 +305,18 @@ body {
 .integrations {
     margin-bottom: 170px;
 }
+/* ----------------------TRYIT ----------------------------*/
+.tryit {
+    background-color: var(--pink-color);
+}
+.header_tryit {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.btn_tryit {
+    margin-top: 55px;
+    background-color: var(--color-black) !important;
+    border-color: var(--color-black);
+    margin-bottom: 160px;
+}
